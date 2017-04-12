@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+    angular-cli:
+      build: .
+      image: smartlyway/angular-cli
