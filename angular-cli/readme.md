@@ -33,5 +33,5 @@ Gracias a esto ahora podremos usar angular cli desde docker de la siguiente mane
 dock-ng <argumentos>
 ```
 
-###Limitaciones 
+### Limitaciones 
 El puerto que debe utilizarse para hacer ejecutar la aplicacion angular debe ser el 4200. 
