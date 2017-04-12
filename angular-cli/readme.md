@@ -24,7 +24,7 @@ Dado que el comando anterior es demasiado largo es recomandable crear un alias. 
 `~/.bashrc` y agrear al final la siguiente linea:
 
 ```
-alias dock-ng='docker run -it --rm -w /src -v $(pwd):/src --user $(id -u) -p 4200:4200 cgardev/angular-cli ng'
+alias dock-ng='docker run -it --rm -w /src -v $(pwd):/src --user $(id -u) -p 4200:4200 smartlyway/angular-cli ng'
 ``` 
 
 Gracias a esto ahora podremos usar angular cli desde docker de la siguiente manera:
