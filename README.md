@@ -5,3 +5,5 @@ El repositorio consiste en crear una serie de herramientas destinadas a diversos
 [Angular CLI](angular-cli/): Herramienta desarrollada por el equipo de Angular para poder desarrollar aplicaciones Angular.
 
 [NPM Check Updates](npm-check-updates/): Actualiza las dependencias de NPM.
+
+[Laradock](https://github.com/laradock/laradock): Proyecto creado por la comunidad. Entorno completo para desarrollo de PHP. Incluye Apache2, Ngix, MySQL, MongoDB, Redis, MariaDB... Muy fácil de configurar.
