@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  angular-cli:
+    build: .
+    volumes:
+      - ${APPLICATION}:/var/www
