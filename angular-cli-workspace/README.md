@@ -6,8 +6,8 @@ Este espacio de trabajo esta pensado para ejecutar los comandos de node-js y ang
 La estructura del proyecto es la siguiente:
 
 - Carptea de del proyecto angular. [workspace]
----- Docker/
----- README.md
+  - Docker/
+  - README.md
 
 Para iniciar un proyecto de angular:
 
@@ -18,7 +18,7 @@ docker-compose build
 
 2. Levantar la máquina de docker
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 3. Entrar en la máquina de docker
@@ -30,4 +30,9 @@ docker-compose exec workspace bash
 ```
 ng new <nombre del proyecto>
 ```
-Los ficheros del proyecto apareceran en la carpeta root.
+Los ficheros del proyecto apareceran en la carpeta root/[nombre del proyecto]
+
+5. Para lanzar el servidor dentro de la máquina ejecutar
+```
+ng serve --host 0.0.0.0
+```
