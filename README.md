@@ -4,7 +4,7 @@ El repositorio consiste en crear una serie de herramientas destinadas a diversos
 ## Listado de herramientas
 [Angular CLI](angular-cli/): Herramienta desarrollada por el equipo de Angular para poder desarrollar aplicaciones Angular. Acceso global a angular-cli que se ejecuta desde dentro de docker.
 
-[Angular CLI WorkSpace](angular-cli-workspace/): Espacio de trabajao que permite ejecutar comandos de angular y de npm que solo afectan a un proyecto en concreto.
+[Angular CLI WorkSpace](angular-cli-workspace/): Espacio de trabajo que permite ejecutar comandos de angular y de npm que solo afectan a un proyecto en concreto.
 
 [NPM Check Updates](npm-check-updates/): Actualiza las dependencias de NPM.
 
