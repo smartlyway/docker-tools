@@ -1,7 +1,9 @@
 version: '2'
 
 services:
-  angular-cli:
+  workspace:
     build: .
     volumes:
       - ${APPLICATION}:/var/www
+    ports:
+      - "4200:4200"
